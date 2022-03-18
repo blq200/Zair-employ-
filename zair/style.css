@@ -1,0 +1,115 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    body{
+        background-image: url(zair.jpg);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+    }
+    #form1{
+        margin-left: 1em;
+        width: 17em;
+        margin-top: 2em;
+    }
+    #btnsearch{
+        margin-top: 2em;
+        background-color:rgb(185, 174, 72);
+        width: 3em; 
+        
+    }
+    #searchicon{
+    color: rgb(0, 0, 0);
+    }
+    #btn1{
+        margin-top: 1.9em;
+        margin-left: 14em;
+        width: 7em;
+        height: 2.5em;
+        border-radius: 5px;
+        background-color:rgba(204, 188, 47, 0.39) ;
+        
+    }
+    #btn1 a{
+        color: black;
+        text-decoration: none;
+    }
+    #btn1 a:hover{
+        color: rgb(255, 255, 255);
+    }
+    form{
+        text-align: center;
+    }
+    form input{
+        border-radius: 7px;
+        width: 26em;
+        height: 2.5em;
+        background-color: rgb(241, 233, 233);
+    }
+    form ::placeholder{
+        color: black;
+        padding: 1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #date{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 1em;
+    }
+    #img{
+        border-radius: 7px;
+        width: 26em;
+        height: 2.5em;
+        background-color: rgb(241, 233, 233);
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0.1em;
+        margin-left: 7em;
+    }
+    /* #img ::placeholder{
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 1em;
+    } */
+    #btn2{
+        /* margin-left: 3em; */
+        width: 6em;
+        background-color: rgba(112, 106, 106, 0.644);
+        color:rgba(219, 182, 14, 0.726) ;
+        
+    }
+    /* #btn3{
+    margin-left: 4em;
+    color: rgba(207, 194, 75, 0.692);
+    text-decoration: none;
+    box-shadow: inset 2px;
+    } */
+    /* #btn3 a{
+        box-shadow: inset 2px;
+        
+    } */
+    a{
+        color: rgba(219, 182, 14, 0.726);
+        text-decoration: none;
+        box-shadow: inset 2px;
+        
+    
+
+    }
+    a:hover{
+        cursor: pointer;
+        color: white;
+    }
+    #ajouter{
+        width: 6em;
+        height: 2.4em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 42em;
+        /* margin-top: 2em; */
+    }
+    #tableau{
+        margin-top: 4em;
+        text-align: center;
+        color: white;
+        margin-left: 3em;
+        font-family: 'Gill Sans';
+    }
